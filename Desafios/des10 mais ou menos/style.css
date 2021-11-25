@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fonts/idroid.otf) format(opentype);
+
+}
+
+/*#2FA866*/
+
+body {
+    font-family: 'Oswald',Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+header {
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(#3DDC84,#1A5C38 80%);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px 1px rgb(0 0 0 / 32%);
+}
+header > p {
+    color: rgba(255, 255, 255, 0.822);
+}
+nav {
+    text-align: left;
+}
+nav > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.925);
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    width: 925px;;
+    margin: auto;
+    text-align: justify;
+    border-radius:0px 0px 10px 10px;
+    box-shadow:0px 0px 10px 1px rgb(0 0 0 / 28%);
+}
+article > p {
+    text-indent: 30px;
+    padding: 10px;
+}
+article > h2 {
+    background-image: linear-gradient(90deg,#84E1AD, white 70%);
+    color: #1A5C38;
+    margin: 10px;
+}
+article > h1 {
+    font-family: 'idroid';
+    font-size: xx-large;
+    color: #1A5C38;
+    margin: 0px 10px 0px 10px;
+}
+article > picture {
+    margin: 10px;
+}
+article > aside#video {
+    background-color: #1A5C38;
+    border-radius: 0px;
+    margin: 0px;
+}
+aside {
+    background-color: #c0f8d8;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 25%);
+}
+aside > h1{
+    background-color: #2FA866;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+aside > p {
+    padding: 10px;
+    text-indent: 30px;
+}
+aside > p > a {
+    text-decoration: none;
+    color: #1A5C38;
+}
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+footer > p {
+    color: white;
+    margin: 0px;
+}
